@@ -6,8 +6,12 @@ name = "pypi"
 [packages]
 fastapi = "*"
 requests = "*"
+python-dotenv = "*"
+pytz = "*"
+firebase-admin = "*"
 
 [dev-packages]
+uvicorn = "*"
 
 [requires]
 python_version = "3.10"
